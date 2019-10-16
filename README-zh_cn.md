@@ -1,21 +1,19 @@
 # qrcode.vue
 
-A Vue.js component for [QRCode](https://en.wikipedia.org/wiki/QR_code).
+一款 Vue.js 二维码组件.
 
 [![Build Status](https://travis-ci.org/scopewu/qrcode.vue.svg?branch=master)](https://travis-ci.org/scopewu/qrcode.vue)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/scopewu/qrcode.vue/blob/master/LICENSE)
 
-[中文](./README-zh_cn.md)
+## 快速开始
 
-## install
-
-the `qrcode.vue` component can use in you Vue.js app.
+快速添加 `qrcode.vue` 组件到项目中
 
 ```bash
 npm install --save qrcode.vue # yarn add qrcode.vue
 ```
 
-## Usage
+## 使用
 
 e.g.
 
@@ -35,7 +33,7 @@ new Vue({
 })
 ```
 
-Or single-file components with a `*.vue` extension:
+或者，在独有单文件扩展 `*.vue` 中使用：
 
 ```html
 <template>
@@ -67,43 +65,43 @@ Or single-file components with a `*.vue` extension:
 - Type: `string`
 - Default: `''`
 
-The value content of qrcode
+二维码的内容值。
 
 ### level
 
 - Type: `string`
 - Default: `L`
 
-qrcode Error correction level (one of 'L', 'M', 'Q', 'H'). Know more, [wikipedia: QR_code](https://en.wikipedia.org/wiki/QR_code#Error_correction)
+二维码的容错能力等级，取值为 'L', 'M', 'Q', 'H' 之一。了解更多，[维基百科：QR_code](https://en.wikipedia.org/wiki/QR_code#Error_correction)。
 
 ### size
 
 - Type: `number`
 - Default: `100`
 
-The size of qrcode element.
+二维码大小。
 
 ### background
 
 - Type: `string`
 - Default: `#ffffff`
 
-The background color of qrcode.
+二维码背景颜色。
 
 ### foreground
 
 - Type: `string`
 - Default: `#000000`
 
-The foreground color of qrcode.
+二维码前景颜色。
 
 ### class || className
 
 - Type: `string`
 - Default: `''`
 
-The class name of qrcode element.
+传递给二维码根元素的类名。
 
-## License
+## 软件许可
 
-copyright &copy; 2017 @scopewu, license by [MIT](https://github.com/scopewu/qrcode.vue/blob/master/LICENSE)
+copyright &copy; 2017 scopewu, license by [MIT](https://github.com/scopewu/qrcode.vue/blob/master/LICENSE)
